@@ -15,7 +15,7 @@ def make_grid():
 def draw_start_end_and_barriers(startNodeLocation, endNodeLocation, barriersLocation):
     # drawing startNode
     if startNodeLocation:
-        pygame.draw.rect(WIN, CONFIG.RED, (startNodeLocation[0]*CONFIG.GAP,startNodeLocation[1]*CONFIG.GAP,CONFIG.GAP,CONFIG.GAP))
+        pygame.draw.rect(WIN, CONFIG.YELLOW, (startNodeLocation[0]*CONFIG.GAP,startNodeLocation[1]*CONFIG.GAP,CONFIG.GAP,CONFIG.GAP))
     # drawing endNode
     if endNodeLocation:
         pygame.draw.rect(WIN, CONFIG.GREEN, (endNodeLocation[0]*CONFIG.GAP,endNodeLocation[1]*CONFIG.GAP,CONFIG.GAP,CONFIG.GAP))
@@ -26,6 +26,7 @@ def draw_start_end_and_barriers(startNodeLocation, endNodeLocation, barriersLoca
 
 def main():
     grid = make_grid()
+    isSearching = False
     startNodeSet = False
     endNodeSet = False
     startNodeLocation = None
