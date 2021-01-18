@@ -1,11 +1,11 @@
-This is a visualizer tool where you can create a path in a grid and find shortest distance finding using the A* algo with heuristics and visualize it.
+This is a visualizer tool where you can create a path in a grid and find shortest distance finding using the A-Star algo with heuristics and visualize it.
 
 # INSTRUCTIONS TO USE
-    1. Click anywhere on the grid to selet your **Start Node (Yellow)** 
+    1. Click anywhere on the grid to selet your **Start Node (Yellow)**
     2. Click again anywhere on the grid to select the **Goal Node (Green)**
-    3. All the click after this will make **Barriers** on the grid (Black)
+    3. All the click after this will make Barriers on the grid (Black)
     4. If you want to change any node (start, goal or barrier) just right click on the same to erase
-    5. Once you are happy  ** Press ENTER to start the A* path finding process**
+    5. Once you are happy  ** Press ENTER to trigger the A-Star path finding process**
     6. Press ** SPACE ** to clear all and restart
 
 # DESIGN
@@ -13,7 +13,7 @@ This is a visualizer tool where you can create a path in a grid and find shortes
 ## Making the visualizer and path constructor tool
     1. Code a game loop (this code will run every frame)
     2. Setup a quit mechanism to exit from game loop (cross button)
-    3. Draw a grid with the config dimensions//rows (should be configurable)
+    3. Draw a grid with the config dimensions/rows (should be configurable)
     4. On 1st left click we will get the start Node pos. Save it and make sure it glows on each game loop
     5. Do the same for the 2nd left click but this time save it as Goal Node. This will also glow each game loop
     6. Each left click after that is a barrier so store the pos in some arr and make sure it glows each GL
