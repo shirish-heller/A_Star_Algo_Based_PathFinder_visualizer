@@ -19,8 +19,7 @@ This is a visualizer tool where you can create a path in a grid and find shortes
     6. Press ** SPACE ** to clear all and restart
 
 # TRY IT HERE
-   https://repl.it/@ShivanshRajolia/A
-   [Lets go to Quora](https://repl.it/@ShivanshRajolia/A)
+   [Run It here!!](https://repl.it/@ShivanshRajolia/A)
 
 # DESIGN
 
