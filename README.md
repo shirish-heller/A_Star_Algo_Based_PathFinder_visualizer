@@ -1,4 +1,4 @@
-<div>This is a visualizer tool where you can create a path in a grid and find shortest distance finding using the A-Star algo with heuristics and visualize it.</div>
+This is a visualizer tool where you can create a path in a grid and find shortest distance finding using the A-Star algo with heuristics and visualize it.
 # Screenshots
 <div>
 <span>
