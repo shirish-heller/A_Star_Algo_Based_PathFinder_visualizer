@@ -46,7 +46,8 @@ def find_neighbours(node, barriersLocation):
 
 def highlight_visitedNodes(visitedNodes):
     for node in visitedNodes:
-        pygame.draw.rect(WIN, CONFIG.ORANGE, (node[0]*CONFIG.GAP,node[1]*CONFIG.GAP,CONFIG.GAP,CONFIG.GAP))
+        rect = pygame.Rect(node[0]*CONFIG.GAP,node[1]*CONFIG.GAP,CONFIG.GAP-4,CONFIG.GAP-4)
+        pygame.draw.rect(WIN, CONFIG.ORANGE, rect, 10)
 
 def construct_optimal_path(cameFrom, endingNode, optimal_path):
     currentNode = endingNode
@@ -93,7 +94,7 @@ def find_optimal_path_with_AStar(startNodeLocation, endNodeLocation, barriersLoc
 
 def draw_optimal_path(optimal_path):
     for node in optimal_path:
-        pygame.draw.rect(WIN, CONFIG.INDIGO, (node[0]*CONFIG.GAP,node[1]*CONFIG.GAP,CONFIG.GAP,CONFIG.GAP))
+        pygame.draw.rect(WIN, CONFIG.INDIGO, (node[0]*CONFIG.GAP,node[1]*CONFIG.GAP,CONFIG.GAP-2,CONFIG.GAP-2))
 
 def main():
     grid = make_grid()
