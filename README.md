@@ -5,6 +5,8 @@
 <img src="https://user-images.githubusercontent.com/16266951/104873240-0e8bfb80-5976-11eb-9a48-fc404fda20d2.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="280" height="280" />
 <img src="https://user-images.githubusercontent.com/16266951/104873612-efda3480-5976-11eb-9390-35b9afdc436c.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="280" height="280" />
 </span>
+<img src="https://user-images.githubusercontent.com/16266951/104874339-b73b5a80-5978-11eb-84b8-5b57632ed3fb.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="280" height="280" />
+</span> 
 </div>
 
 # INSTRUCTIONS TO USE
