@@ -1,6 +1,8 @@
 This is a visualizer tool where you can create a path in a grid and find shortest distance finding using the A-Star algo with heuristics and visualize it.
-
+<span>
 <img src="https://user-images.githubusercontent.com/16266951/104873240-0e8bfb80-5976-11eb-9a48-fc404fda20d2.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="350" height="350" />
+<img src="https://user-images.githubusercontent.com/16266951/104873612-efda3480-5976-11eb-9390-35b9afdc436c.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="350" height="350" />
+</span>
 
 # INSTRUCTIONS TO USE
     1. Click anywhere on the grid to selet your **Start Node (Yellow)**
