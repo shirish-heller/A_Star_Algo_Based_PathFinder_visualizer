@@ -73,7 +73,6 @@ def find_optimal_path_with_AStar(startNodeLocation, endNodeLocation, barriersLoc
 
         currentNodeData = q.get()
         currentNode = currentNodeData[1]
-        # cost[currentNode] = (cost.get(currentNode) if cost.get(currentNode)!=None else 0) + 1
         visitedNodes[currentNode] = True
         if(currentNode == endNodeLocation):
             print("solution found")
@@ -130,7 +129,6 @@ def main():
                     barriersLocation.remove(node_coordinates)
         
         draw_start_end_and_barriers(startNodeLocation, endNodeLocation, barriersLocation)   # Draws the start, end and barrier nodes
-        # pygame.display.update()
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
