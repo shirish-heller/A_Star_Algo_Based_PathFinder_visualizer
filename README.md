@@ -1,9 +1,9 @@
 <div>This is a visualizer tool where you can create a path in a grid and find shortest distance finding using the A-Star algo with heuristics and visualize it.</div>
 <div>
 <span>
-<img src="https://user-images.githubusercontent.com/16266951/104873816-637c4180-5977-11eb-92f2-4dedcf6a01b1.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="300" />
-<img src="https://user-images.githubusercontent.com/16266951/104873240-0e8bfb80-5976-11eb-9a48-fc404fda20d2.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="300" />
-<img src="https://user-images.githubusercontent.com/16266951/104873612-efda3480-5976-11eb-9390-35b9afdc436c.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="300" />
+<img src="https://user-images.githubusercontent.com/16266951/104873816-637c4180-5977-11eb-92f2-4dedcf6a01b1.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="280" height="280" />
+<img src="https://user-images.githubusercontent.com/16266951/104873240-0e8bfb80-5976-11eb-9a48-fc404fda20d2.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="280" height="280" />
+<img src="https://user-images.githubusercontent.com/16266951/104873612-efda3480-5976-11eb-9390-35b9afdc436c.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="280" height="280" />
 </span>
 </div>
 
